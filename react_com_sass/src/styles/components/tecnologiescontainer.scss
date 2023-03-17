@@ -1,0 +1,97 @@
+@use '../variables.scss';
+@use '../mixins.scss';
+
+.techonolies-container{
+
+    margin-bottom: 1rem;
+
+
+    .technologies-grid{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        .technology-card {
+            @include mixins.center;
+            gap: 1rem;
+            padding: 1rem;
+            border: 1px solid #333;
+            width: 45%;
+            border-radius: variables.$card-border-radius;
+
+            h3{
+                color: variables.$text-color;
+                margin-bottom: 1rem;
+            }
+            svg{
+                font-size: 10rem;
+            }
+        }
+
+        #html{
+            svg{
+                color: #e44d26;
+            }
+        }
+
+        #css {
+            svg {
+                color: #1572b6;
+            }
+        }
+        #js {
+            svg {
+                color: #f0db4f;
+            }
+        }
+        #node {
+            svg {
+                color: #83cd29;
+            }
+        }
+        #mysql {
+            svg {
+                color: #00618a;
+            }
+        }
+        #react {
+            svg {
+                color: #61dafd;
+            }
+        }
+        #flutter {
+            svg {
+                color: #5BC2F0;
+            }
+        }
+        #php {
+            svg {
+                color: #4D588E;
+            }
+        }
+        #adobe {
+            svg {
+                color: #B90914;
+            }
+        }
+        #office {
+            svg {
+                color: #D43F00;
+            }
+        }
+        #dotnet {
+            svg {
+                color: #633BA3;
+            }
+        }
+        #python {
+            svg {
+                color: #FFD538;
+            }
+        }
+       
+        
+    }
+    
+
+}

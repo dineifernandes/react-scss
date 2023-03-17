@@ -1,0 +1,20 @@
+{
+	"Componente Funcional": {
+		"prefix": "craudio",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const $TM_FILENAME_BASE = () => {",
+			"    return (",
+			"       <div>",
+			"",
+			"",
+			"",
+			"      </div>",
+			");",
+			"};",
+			"export default $TM_FILENAME_BASE;",
+		],
+		"description": "Log output to console"
+	}
+}
